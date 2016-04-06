@@ -1,0 +1,108 @@
+header {
+  font-size: 10px;
+    .navbar-inverse {
+        .navbar-nav>li>a {
+          color: #FFF !important;
+        }
+        li {
+          border: 1px solid #585858;
+          margin: 0px 2px;
+        }
+        li, .LiMenu, .Red {
+          border-radius: 2%;
+        }
+        .navbar-nav>li>a:hover {
+          background-color: #DF0101 !important;
+        }
+        .Red {
+          background-color: #8A0808 !important;
+      }
+    }
+    .Menu2Footer {
+      font-size: 11px !important;
+      .Black {
+        background-color: #000000;
+      }
+      .LiMenu {
+        background-color: #585858;
+      }
+
+    }
+    .IMGBanner {
+      width: $AnchoMax;
+    }
+}
+
+/*estilo del banner*/
+.bg-gray{
+  background-color: #E6E6E6;
+  width: 100%;
+  padding: 50px 210px;
+}
+.style-head{
+  @include lsiz-head($m-letter);
+}
+.style-head:hover{
+  text-decoration:none;
+  }
+.color{
+  @include icon-color();
+  color: #08088A;
+}
+.color2{
+  @include icon-color();
+  color: #0040FF;
+}
+.color3{
+  @include icon-color();
+  color: #DF0101
+}
+.color4{
+  @include icon-color();
+  color: #D7DF01;
+}
+.color5{
+  @include icon-color();
+  color: #DF7401;
+}
+.move{
+  position: relative;
+  left: 550px;
+
+}
+
+/*logo y las otras cosillas*/
+.logo{
+  padding: 5em;
+}
+.layer1{
+ @include layer_f();
+}
+.margin{
+ @include margin_txt();
+}
+.layer2{
+  @include layer_v();
+}
+.margin2{
+  @include margin_txt2();
+  
+}
+.txtauthor{
+  position: relative;
+  bottom: 1em;
+}
+.autor{
+ float: right;
+ position: relative;
+ bottom: 5em;
+}
+
+/*para otros header*/
+.layerred{
+ @include layer_r();
+}
+.marginred{
+  @include margin_txtred();
+  
+}

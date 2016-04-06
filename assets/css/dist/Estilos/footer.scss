@@ -1,0 +1,31 @@
+.BackFooter {
+	background-color: #A4A4A4;
+	a {
+		color: #151515;
+	}
+	a:hover {
+		color: #DF0101;
+		text-decoration: none;
+	}
+}
+li {
+	list-style:none;
+}
+ul {
+	padding-left: 0px;
+}
+.Mtop {
+	padding-top: $PaddingCajas;
+}
+.DivFooter {
+	margin-top: 40%;
+	width: $AnchoMax;
+}
+.ImgFooter {
+	width: $AnchoMax;
+}
+.HrVertical {
+   
+    display: inline;
+    border: 1px solid #BDBDBD;
+   }

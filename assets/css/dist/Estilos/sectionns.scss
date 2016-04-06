@@ -1,0 +1,62 @@
+
+.LiInline {
+    display: $Display;
+}
+.DivCajaGris {
+    border: $LineaBorder solid #A4A4A4;
+    padding: $PaddingCajas;
+    width: $AnchoMax;
+    height: 220px;
+}
+.DivFondoGris {
+    background-color: #E6E6E6;
+    padding: $PaddingCajas;
+}
+.DivFondoGris:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #BDBDBD;
+	.ImgFondo {
+		border: 3px solid #DF0101;
+	}
+	h4 {
+		color: #DF0101;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+.DivImg {
+    width: 30%;
+    display: $Display;
+    bottom: 0px;
+}
+.CajaText {
+    width: 66%;
+    display: $Display;
+    padding-left: $PaddingCajas;
+}
+.ImgFondo {
+    width: $AnchoMax;
+    border: $LineaBorder solid #FFFFFF;
+}
+.P3 {
+    padding-bottom: 5%;
+}
+.MtopRow {
+    .row {
+        margin: $PaddingCajas 0px;
+    }
+}
+@mixin border-btn($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+  padding: 1% 2%;
+  background-color: #8A0808;
+  color: white;
+} 
+.DesingButton{
+  @include border-btn($radius);
+}

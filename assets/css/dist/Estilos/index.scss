@@ -1,0 +1,177 @@
+/*........Index.................*/
+.DivCajaGris2 {
+  width: $AnchoMax;
+  border: $LineaBorder solid #A4A4A4;
+  height: 300px;
+  h4 {
+    color: #FF0000;
+    padding-top: 10px;
+  }
+}
+.LineaText {
+  height: 50px;
+}
+.ImgIndex {
+  height: 200px;
+  width: $AnchoMax;
+}
+.Mtop {
+  margin-top: $PaddingCajas;
+}
+#red-icon{
+  color: red;
+}
+.CajaPadre {
+  width: 100%;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #8D8D8D;
+}
+.Caja1 {
+  width: 30%;
+  display: inline-block;
+}
+.Caja2 {
+  width: 68%;
+  display: inline-block;
+  padding: 0px 3%;
+}
+.ImgMaxx {
+  width: 100%;
+}
+
+/*ANALY*/
+.cabeza {
+  text-decoration:  none !important;
+  display: inline-block !important;
+  padding-right: 20px;
+}
+/*noticias principales*/
+/*.back-trans {
+  -webkit-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  position: absolute;
+  width: 79%;
+  bottom: 0px;
+  left: 60px;
+  padding-top: 200px;
+  color: white;
+}*/
+/*columnistas*/
+
+.box-red {
+  width: 100%;
+  height: 100% auto;
+  background-color: red;
+  color: white;
+  margin-bottom: -20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.box-gray {
+  width: 100%;
+  height: 100% auto;
+  background-color: #E0E0E0;
+  border: 5px solid red;
+  border-right: $none;
+  border-left: $none;
+  border-bottom: $none;
+  padding-top: 70px;
+}
+.box-white {
+ background-color: white;
+ padding: 5px;
+ margin-bottom: $margin;
+}
+.img-100 {
+  width: 100%;
+}
+.pad-4 {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.txt-under {
+  color: gray !important;
+  font-size: 12px;
+}
+
+.navbar-inverse {
+  padding: 10px;
+      .navbar-nav>li>a {
+        color: #FFF !important;
+      }
+      li {
+        border: 1px solid #585858;
+        margin: 0px 25px;
+      }
+      li, .LiMenu, .Red {
+        border-radius: 10%;
+      }
+      .navbar-nav>li>a:hover {
+        background-color: #DF0101 !important;
+      }
+      .Red {
+        background-color: #8A0808 !important;
+    }
+}
+.Prueba {
+  .col-md-3, .col-xs-6, {
+    padding: 2px;
+  }
+ }
+
+.DivCajaGris3{
+  width: $AnchoMax;
+  border: $LineaBorder solid #A4A4A4;
+  padding: $PaddingCajas;
+} 
+
+
+/*noticias principales*/
+.mrg-noticias {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.back-trans {
+  /*-webkit-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);*/
+  position: absolute;
+  width: 79%;
+  bottom: 0px;
+  left: 60px;
+  padding-top: 200px;
+  color: white;
+  font-size: 35px;
+  text-align: left;
+  padding-left: 15px;
+}
+.back-trans1 {
+  /*-webkit-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);*/
+  position: absolute;
+  width: 79%;
+  top: 130px;
+  left: 60px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+}
+.back-trans2 {
+  /*-webkit-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);
+  box-shadow: inset 0px -90px 85px -31px rgba(0,0,0,0.5);*/
+  position: absolute;
+  width: 79%;
+  bottom: 0px;
+  left: 60px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+}
+.mrg-bot20 {
+  margin-bottom: 20px;
+}
